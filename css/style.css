@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.items {
+    margin: 100px auto;
+    border: 2px solid black;
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.item {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    transition-property: 5s;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.items:hover .item {
+    background-color: rgb(23, 107, 180);
+    width: 100%;
+}
+
+.bir {
+    transition-duration: 1s;
+}
+
+.iki {
+    transition-duration: 2s;
+}
+
+.uc {
+    transition-duration: 3s;
+}
+
+.dort {
+    transition-duration: 4s;
+}
+
+.bes {
+    transition-duration: 5s;
+}
+
+.alti {
+    transition-duration: 6s;
+}
+
+.yeddi {
+    transition-duration: 7s;
+}
+
+.sekkiz {
+    transition-duration: 8s;
+}
+
+.doqquz {
+    transition-duration: 9s;
+}
